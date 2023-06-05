@@ -1,0 +1,79 @@
+body{
+  background-color:#555555;
+}
+.box {
+    width: 400px;
+    height: 400px;
+    margin-top: 70px;
+    margin-left: 35%;
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e63e20;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .inputData {
+    margin-bottom: 20px;
+  }
+  
+  .inputField {
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .errorMsg {
+    color: red;
+  }
+  
+  .info {
+    text-align: center;
+  }
+  
+  .location {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .temp {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  
+  .tempmin_max {
+    font-size: 25px;
+  }
+  
+  /* Additional Colors */
+  
+  .box {
+    background-color: #63a0fa;
+    color: #333333;
+  }
+  
+  .inputField {
+    background-color: #d5f5d2;
+    color: #333333;
+  }
+  
+  .errorMsg {
+    color: red;
+  }
+  
+  .location {
+    color: #333333;
+  }
+  
+  .temp {
+    color: #333333;
+  }
+  
+  .tempmin_max {
+    color: black;
+  }
